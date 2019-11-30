@@ -15,5 +15,11 @@ function rolls(){
   }
   return value - temp[pos];
 
+let diceRolls = [18][0];
+  
+for (let i = 0; i < 10000; i++ ){
 
+    riceRolls[rolls()][0]++;
+
+}
 
