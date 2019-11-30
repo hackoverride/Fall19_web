@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: reverse-row;
+  flex-wrap: wrap;
+  background-color: lightgray;
+}
+
+.item{
+  background-color: orange;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  animation: animated 5s ease-in infinite alternate;
+}
+
+@keyframes animated{
+  from{
+  
+  }
+  to{
+  
+  }
+}
