@@ -19,7 +19,7 @@ let diceRolls = [18][0];
   
 for (let i = 0; i < 10000; i++ ){
 
-    riceRolls[rolls()][0]++;
+    diceRolls[rolls()][0]++;
 
 }
 
