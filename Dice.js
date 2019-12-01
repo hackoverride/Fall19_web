@@ -5,7 +5,7 @@ function rolls(){
               Math.floor((Math.random * dice)+1), 
               Math.floor((Math.random * dice)+1), 
               Math.floor((Math.random * dice)+1)];
-  let min, pos, value;
+  let min = 20, pos, value;
   
   for (let i = 0; i < temp.length ; i++){
     value += temp[i];
