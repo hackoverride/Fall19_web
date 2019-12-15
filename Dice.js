@@ -15,7 +15,7 @@ function rolls(){
   }
   return value - temp[pos];
 
-let diceRolls = [18][0];
+let diceRolls = [18][1];
   
 for (let i = 0; i < 10000; i++ ){
 
